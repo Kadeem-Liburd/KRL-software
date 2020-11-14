@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset= "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"href="Skills.css">
+<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<title>Skills</title> 
+</head>
+<body>
+<!--Logo-->
+<div id = "logo7">
+<a href="Homepage.html"><img src="images/Logo7.png" alt="Logo" width="100" height="80"></a>
+</div> 
+<nav>
+    <input type ="checkbox" id="check">
+<label for="check" class="checkbtn">
+<i class ="fa fa-bars"></i></label>
+<!--<label class = "logo" > K*R*L </label> -->
+    <!--Navigation-->
+<ul>
+<li><a href = "Homepage.html">Home </a></li>
+<li><a href = "About.html">About </a></li>
+<li><a class="active" href = "Skills.html">Skills </a></li>
+<li><a href = "Projects.html">Projects </a></li>
+<li><a href = "Contact.html">Contact </a></li>
+</ul>
+</nav>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+   <!-- Container for the image gallery --> 
+<div class="container">
+
+  <!-- Full-width images with number text -->
+    
+  <div class="skillsSlides">
+      <p align = "Center">
+    <div class="numbertext">1 / 5</div>
+    <!--  <p align = "Center"> -->
+      <img src="images/Skills1.PNG"  style="width:30%">
+  </div>
+
+  <div class="skillsSlides">
+    <div class="numbertext">2 / 5</div>
+      <img src="images/Skills2.PNG" style="width:80%">
+  </div>
+
+  <div class="skillsSlides">
+    <div class="numbertext">3 / 5</div>
+      <img src="images/Skills3.PNG" style="width:80%">
+  </div>
+
+  <div class="skillsSlides">
+    <div class="numbertext">4 / 5</div>
+      <img src="images/Skills4.PNG" style="width:80%">
+  </div>
+
+  <div class="skillsSlides">
+    <div class="numbertext">5 / 5</div>
+      <img src="images/Skills5.PNG" style="width:80%">
+  </div>
+<!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+ <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/Skills1.PNG" style="width:100%" onclick="currentSlide(1)" alt="Centennial Form: A form made in an advanced web course which used HTML, CSS and Javascript. The Functionality of the form is to valid whenever everything was enter incorrectly or not.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/Skills2.PNG" style="width:100%" onclick="currentSlide(2)" alt="Data Warehousing: In this photo this was the end result when you sort out the data source.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/Skills3.PNG" style="width:100%" onclick="currentSlide(3)" alt="Medical imaging: Using Image J to learn different ways to examine medical images.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/Skills4.PNG" style="width:100%" onclick="currentSlide(4)" alt="Sharpening images: Using Image J to sharpen the image to get a better look at the image.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/Skills5.PNG" style="width:100%" onclick="currentSlide(5)" alt="Matrices: The Maths that would be use to sharpen images.">
+    </div>
+  </div>
+</div>
+<!---    <div id = "Description">
+<h2>  Gallery Descriptions:</h2>
+<p align="Center"><font color = white>Centennial Form: A form made in an advanced web course which used HTML, CSS and Javascript.</p>
+<p align="Center"><font color = white>The Functionality of the form is to valid whenever everything was enter incorrectly or not.</p>
+<p align="Center"><font color = white>Data Warehousing: In this photo this was the end result when you sort out the data source.</p>
+<p align="Center"><font color = white>Medical Imaging: Using Image J to learn different ways to examine medical images.</p>
+<p align="Center"><font color = white>Sharpening Images: Using Image J to sharpen the image to get a better look at the image.</p>
+<p align="Center"><font color = white>Matrices: The Maths that would be use to sharpen images.</p>
+    </div> -->
+    
+    <!-- Skills & Relevant Courses-->
+    <div class= "techSkills">
+        <h1> Technical and Knowledgeable Skills</h1>
+    </div>
+   <div class="skill-bars">
+    <div class="bar">
+      <div class="info">
+        <span>HTML</span>
+      </div>
+      <div class="progress-line html">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>CSS</span>
+      </div>
+      <div class="progress-line css">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>MySQL</span>
+      </div>
+      <div class="progress-line jquery">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>C#</span>
+      </div>
+      <div class="progress-line python">
+        <span></span>
+      </div>
+    </div>
+    <div class="bar">
+      <div class="info">
+        <span>Javascript</span>
+      </div>
+      <div class="progress-line mysql">
+        <span></span>
+      </div>
+    </div>
+  </div>
+       <div id = "Description">
+<h2>  Relevant Courses:</h2>
+<p align="Center"><font color = white>-Tool, Algorithm and Methods for HCIS</p>
+<p align="Center"><font color = white>-Advanced Database concepts</p>
+<p align="Center"><font color = white>- Web Application Development</p>
+<p align="Center"><font color = white>-Data Security & Privacy</p>
+<p align="Center"><font color = white>-Clinical Workflow</p>
+<p align="Center"><font color = white>- Telehealth</p>
+    </div> 
+<!--<h1>Contact Me:</h1> -->
+<!--<div id = "icons">
+<h1>Contact Me:</h1>
+<ul>
+<li><a href= "https://ca.linkedin.com/in/kadeem-liburd-55111b14a"title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+<li><a href= "https://github.com/Kadeem-Liburd"title="Github"><i class="fa fa-github"></i></a></li>
+<li><i class="fa fa-envelope"title="K.Liburd7@gmail.com"></i></li>
+</ul>
+</div>-->
+ <div class = "footer">
+<div class= "footer-content">
+<div class= "footer-section about">
+<h1 class = "logo-text"><span>KRL-</span>Software</h1>  
+<p>
+<!--KRL-Software is a website for Kadeem Liburd that's uses as a website portfolio.
+<!--On this website you will get to learn about Kadeem Liburd and his projects.-->
+</p>
+<div class="contact">
+<span><i class= "fas fa-envelope"></i>&nbsp;K.Liburd7@gmail.com</span>
+</div>
+<div class ="socials">
+<a href ="#"><i class="fab fa-linkedin"></i></a>
+<a href ="#"><i class="fab fa-github"></i></a>
+<a href ="#"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+<div class= "footer-section menu">
+<h2>Quick Links</h2>
+<br>
+<ul>
+ <a href="#"><li>Home</li></a>
+ <a href="#"><li>About</li></a>
+ <a href="#"><li>Skills</li></a>
+ <a href="#"><li>Projects</li></a>
+ <a href="#"><li>Contact</li></a>
+</ul>
+</div>
+<div class= "footer-section projects">
+<h2>Projects</h2>
+<br>
+<ul>
+ <a href="#"><li>FDMS</li></a>
+ <a href="#"><li>Slangopedia</li></a>
+ <a href="#"><li>Chairs</li></a>
+</ul>    
+</div>
+</div>
+<div class="footer-bottom">
+&copy; KRL-Software | Designed by Kadeem Liburd 2020    
+</div>
+</div>
+    <script src="Skills.js" type="text/javascript"></script>
+</body>
+</html>
