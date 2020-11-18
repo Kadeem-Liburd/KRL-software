@@ -102,7 +102,13 @@ a.active,a:hover
 	}
 }
 @media only screen and (max-width: 600px) {
-.footer  .footer-content .about {
+.footer  .footer-content .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.footer  .footer-content .projects {
     display: none;
   }
 }
