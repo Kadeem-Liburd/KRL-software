@@ -99,6 +99,17 @@ a.active,a:hover
 		transition: all .5s
 	}
 }
+@media only screen and (max-width: 600px) {
+.footer  .footer-content .menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+.footer  .footer-content .projects {
+    display: none;
+  }
+}
 nav ul li /*Problem with nav bar here*/
 {
 	/*display: block;*/
