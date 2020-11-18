@@ -101,6 +101,11 @@ a.active,a:hover
         
 	}
 }
+@media only screen and (max-width: 600px) {
+.footer  .footer-content .about {
+    display: none;
+  }
+}
 nav ul li /*Problem with nav bar here*/
 {
 	/*display: block;*/
