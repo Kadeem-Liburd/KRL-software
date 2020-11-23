@@ -71,6 +71,14 @@ a.active,a:hover
 {
 	display:none;
 }
+@media (max-width: 1200px)
+{
+	#Kadeem img
+	{
+		width:100%;
+		height:auto;
+	}
+}
 @media (max-width: 952px) /*Laptop View*/
 {
 	label.logo{
