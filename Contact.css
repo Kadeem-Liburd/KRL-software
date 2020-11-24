@@ -257,7 +257,21 @@ form
     margin-right: 150px;
     margin-left: 80px;
 }
+form .submit
+{
+    background: grey;
+    border-color: green;
+    font-size: 48px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 10px;
+}
 
+form .submit:hover
+{
+    background-color: green;
+    cursor: pointer;
+} 
 .icon-bar a {
   display: block;
   text-align: center;
