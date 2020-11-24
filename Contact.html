@@ -29,13 +29,13 @@
 <li><a class = "active" href = "Contact.html">Contact </a></li>
 </ul>
 </nav>
-    <form>
+   <form id="contact-form" method="post" action="Contact.php">
         <label for="Name"> Name:</label><br>
-        <input type ="text" id="Name" name = "name"><br>
+        <input type ="text" class="form-control" id="Name" placeholder="Your Name" name = "name"><br>
         <label for="Email"> Email:</label><br>
-        <input type ="text" id="Email" name="email"><br><br>
-        <textarea name = "message" rows="10" cols="30">Write message here....</textarea><br>
-        <input type="button" onclick="alert('Your Message have been send!')" value="Submit">
+        <input type ="text" class="form-control" id="Email" placeholder="Your email"name="email"><br><br>
+        <textarea name = "message" class="form-control" placeholder="Your Message"rows="10" cols="30"></textarea><br>
+        <input type="submit"class="form-control submit" onclick="alert('Your Message have been send!')" value="Submit">
 
     </form>  
 <div class = "footer">
