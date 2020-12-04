@@ -405,13 +405,13 @@ html,body{
   content: "90%";
 }
 .progress-line.css span::after{
-  content: "60%";
+  content: "85%";
 }
 .progress-line.jquery span::after{
   content: "85%";
 }
 .progress-line.python span::after{
-  content: "50%";
+  content: "70%";
 }
 .progress-line.mysql span::after{
   content: "75%";
