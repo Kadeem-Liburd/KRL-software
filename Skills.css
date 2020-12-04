@@ -358,13 +358,13 @@ html,body{
   width: 90%;
 }
 .bar .progress-line.css span{
-  width: 60%;
+  width: 85%;
 }
 .bar .progress-line.jquery span{
   width: 85%;
 }
 .bar .progress-line.python span{
-  width: 50%;
+  width: 70%;
 }
 .bar .progress-line.mysql span{
   width: 75%;
