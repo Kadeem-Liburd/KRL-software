@@ -83,7 +83,8 @@ a.active,a:hover
     display: none;
   }
 }
-.footer  .footer-content .projects {{
+@media(min-width:1905px) {
+.footer  .footer-content .projects {
     display: none;
   }
 }
