@@ -83,7 +83,7 @@ a.active,a:hover
     display: none;
   }
 }
-@media(min-width:1905px) {
+@media(min-width: 1905px) {
 .footer  .footer-content .projects {
     display: none;
   }
