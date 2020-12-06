@@ -83,11 +83,7 @@ a.active,a:hover
     display: none;
   }
 }
-@media(min-width: 1905px) {
-.footer  .footer-content .projects {
-    display: none;
-  }
-}
+
 @media (max-width: 952px) /*Laptop View*/
 {
 	label.logo{
