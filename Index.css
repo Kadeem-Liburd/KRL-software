@@ -79,6 +79,10 @@ a.active,a:hover
 		height:auto;
 	}
 }
+.footer  .footer-content .menu {
+    display: none;
+  }
+}
 @media (max-width: 952px) /*Laptop View*/
 {
 	label.logo{
