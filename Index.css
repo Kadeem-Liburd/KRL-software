@@ -83,7 +83,7 @@ a.active,a:hover
     display: none;
   }
 }
-.footer  .footer-content .projects {
+.footer  .footer-content .projects {{
     display: none;
   }
 }
