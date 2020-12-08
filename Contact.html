@@ -36,7 +36,7 @@
   <!-- <h3 align = "Center"> <font color= "green">CONTACT ME:</h3> -->
  <!-- <p align = "Center"> <font color= "white">Down below is where you may provide your </p> -->
  <!-- <p align = "Center"> <font color= "white">information if you want to get in contact with myself. </p> -->
-   <form id="contact-form" method="post" action="success.html"  netlify-honeypot="bot-field"  data-netlify="true">
+   <form id="contact-form" method="post" action="success.html"  netlify-honeypot="bot-field"  data-netlify-recaptcha="true" data-netlify="true">
     <p class="hidden">
     <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
     </p>
@@ -45,6 +45,7 @@
         <label for="Email"> Email:</label><br>
         <input type ="text" class="form-control" id="Email" placeholder="Your email"name="email"><br><br>
         <textarea name = "message" class="form-control" placeholder="Your Message"rows="10" cols="30"></textarea><br>
+        <div data-netlify-recaptcha="true"></div>
         <input type="submit"class="form-control submit" value="Submit" onclick="CheckForm()">
     </form>  
       <script type="text/javascript" src="Javascript.js"></script>
