@@ -10,9 +10,16 @@ box-sizing: border-box;
 body
 {
 	font-family: Verdena;
-	/*background-color:black;*/
+	background-color:black;
         font-color:white;
-	background image: url('Logo7.png');
+	
 }
-
+#logo7
+{
+	position:absolute;
+	top:0;
+	left:-90px;
+	line-height:80px;
+	padding: 0 100px;
+}
 
