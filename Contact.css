@@ -275,6 +275,7 @@ form .submit:hover
 data-netlify-recaptcha
 {
 	display: inline-block;
+	text-align:center;
 }
 .icon-bar a {
   display: block;
