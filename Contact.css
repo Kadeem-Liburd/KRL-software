@@ -272,6 +272,10 @@ form .submit:hover
     background-color: green;
     cursor: pointer;
 } 
+data-netlify-recaptcha
+{
+	display: inline-block;
+}
 .icon-bar a {
   display: block;
   text-align: center;
