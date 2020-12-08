@@ -10,8 +10,8 @@ box-sizing: border-box;
 body
 {
 	font-family: Verdena;
-	background-color:black;
-  font-color:white;
+	/*background-color:black;*/
+        font-color:white;
 	background image: url('Logo7.png');
 }
 
