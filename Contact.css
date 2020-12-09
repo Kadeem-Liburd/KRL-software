@@ -276,7 +276,7 @@ data-netlify-recaptcha
 {
 	display: inline-block;
 	text-align:center;
-	margin: 270px;
+	margin-right: 270px;
 }
 .icon-bar a {
   display: block;
