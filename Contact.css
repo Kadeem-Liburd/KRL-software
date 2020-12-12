@@ -71,6 +71,18 @@ a.active,a:hover
 {
 	display:none;
 }
+@media (min-width: 1905px)
+{
+	#Kadeem 
+	{
+		width:40%;
+		height:auto;
+	}
+}
+.footer  .footer-content .menu , .projects {
+    display: none;
+  }
+}
 @media (max-width: 952px)
 {
 	label.logo{
