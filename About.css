@@ -72,6 +72,14 @@ a.active,a:hover
 }
 @media (min-width: 1905px)
 
+@media (min-width: 1905px)
+{
+	#Kadeem 
+	{
+		width:40%;
+		height:auto;
+	}
+}
 .footer  .footer-content .menu , .projects {
     display: none;
   }
