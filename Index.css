@@ -79,7 +79,7 @@ a.active,a:hover
 		height:auto;
 	}
 }
-.footer  .footer-content .menu {
+.footer  .footer-content .menu , .projects {
     display: none;
   }
 }
