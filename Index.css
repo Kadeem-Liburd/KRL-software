@@ -474,12 +474,12 @@ li:hover
 .footer .footer-content h1,
 .footer .footer-content h2
 {
-    color: green;
+    color: white;
 }
 
 .footer .footer-content .about h1 span
 {
-    color: red;
+    color: white;
 }
 .footer .footer-content .about .contact span
 {
